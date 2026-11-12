@@ -4,3 +4,12 @@ info:
 packages:
 - name: Seren1211cp4iProject
   gitBranch: master
+services:
+- serviceName: project.seren1211cp4i.integrations:gcd02
+  packages:
+  - name: Seren1211cp4iProject
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1331
