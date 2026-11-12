@@ -3,7 +3,10 @@ info:
   model: int-scaffold
 packages:
 - name: Seren1211cp4iProject
-  gitBranch: master
+  gitServerName: src_shared_GithubCtrl_Arti_new
+  gitUrl: https://github.com/ArtiKhareNew
+  gitUsername: ArtiKhareNew
+  gitBranch: main
 services:
 - serviceName: project.seren1211cp4i.integrations:gcd02
   packages:
