@@ -8,6 +8,14 @@ packages:
   gitUsername: ArtiKhareNew
   gitBranch: main
 services:
+- serviceName: project.seren1211cp4i.integrations:aa
+  packages:
+  - name: Seren1211cp4iProject
+    version: "1.0"
+- serviceName: pub.xml:loadXMLNode
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1332
 - serviceName: project.seren1211cp4i.integrations:gcd02
   packages:
   - name: Seren1211cp4iProject
@@ -15,4 +23,8 @@ services:
 - serviceName: pub.date:getCurrentDate
   packages:
   - name: WmPublic
-    version: 12.1.0.0.1331
+    version: 12.1.0.0.1332
+- serviceName: project.seren1211cp4i.streaming.connections:EmbeddedMessaging
+  packages:
+  - name: Seren1211cp4iProject
+    version: "1.0"
